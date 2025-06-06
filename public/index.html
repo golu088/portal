@@ -1,0 +1,92 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movie Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <aside class="sidebar">
+      <h1>Movie Blog</h1>
+      <p>Share your reviews & movie thoughts!</p>
+    </aside>
+
+    <main class="main-content">
+      <section class="new-post">
+        <h2>Write a Movie Review</h2>
+        <form id="blogForm">
+          <input type="text" id="title" placeholder="Enter movie title" required />
+          <textarea id="content" placeholder="Write your review..." required></textarea>
+          <button type="submit">Submit Review</button>
+        </form>
+      </section>
+
+      <section class="posts" id="postsContainer">
+        <h2>Latest Movie Reviews</h2>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Intern Project Submission Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Intern Project Submission Portal</h1>
+    <p>Designed to track and manage intern submissions efficiently</p>
+  </header>
+
+  <div class="wrapper">
+    <aside class="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="#submit">Submit Project</a></li>
+        <li><a href="#stats">Submission Stats</a></li>
+        <li><a href="#projectsContainer">All Projects</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <!-- Submission Form -->
+      <section class="new-post" id="submit">
+        <h2>📤 Submit Your Project</h2>
+        <form id="projectForm">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="text" id="title" placeholder="Project Title" required />
+          <textarea id="description" placeholder="Project Description..." required></textarea>
+          <button type="submit">Submit Project</button>
+        </form>
+      </section>
+
+      <!-- Submission Stats -->
+      <section class="stats" id="stats">
+        <h2>📊 Submission Stats</h2>
+        <p>Total Submissions: <span id="submissionCount">0</span></p>
+      </section>
+
+      <!-- Project Display -->
+      <section class="posts" id="projectsContainer">
+        <h2>📚 Submitted Projects</h2>
+        <!-- Project cards will appear here -->
+      </section>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 Intern Portal. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
